@@ -36,6 +36,7 @@ let reverseString = function (contrario) {
 }
 
 console.log(reverseString('Mirandola'))
+
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
