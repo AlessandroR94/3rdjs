@@ -31,7 +31,11 @@ console.log(boundary(180))
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
 */
 
+let reverseString = function (contrario) {
+  return contrario.split('').reverse('').join('')
+}
 
+console.log(reverseString('Mirandola'))
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
